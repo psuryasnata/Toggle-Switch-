@@ -12,6 +12,7 @@ export const ToggleSwitch = () => {
     const checkIsOn = isOn ? "on": "off";
 
     return(
+        
         <div className="toggle-switch" style={{backgroundColor : isOn? "#4caf50": "#f44336"}} onClick={handleToggleSwitch}>
             <div className={`switch ${checkIsOn}`}>
                 <span className="switch-state">
